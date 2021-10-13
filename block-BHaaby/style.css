@@ -48,6 +48,19 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+ol
+{
+list-style: decimal;
+}
+ul
+{
+    list-style: disc;
+}
+ol,ul{
+    padding-left: 40px;
+    font-size: 22px;
+    color: white;
+    }
 .container
 {
     width: 1200px;
@@ -57,23 +70,27 @@ table {
 {
     background-color: rgb(196, 40, 40);
     padding: 30px 00;
-
 }
 .header-list a
 {
     text-decoration: none;
-    font-size: 22px;
+    font-size: 17px;
     color: white;
-    margin-right: 26px;
+    margin-right: 34px;
+    text-transform: uppercase;
 }
 .header-list
 {
     display: flex;
-    
+}
+.header-div ul
+{
+    list-style: none;
 }
 .main
 {
     background-color: burlywood;
+    padding-bottom: 30px;
 }
 .main-div
 {
@@ -87,14 +104,19 @@ table {
     height: 600px;
     box-shadow: 5px 6px 15px 0px black;
     background-color: rgb(61, 61, 196);
+    padding: 20px 00;
 }
-ol li {
-    list-style: decimal;
-    list-style-position: inside;
+.box li
+{
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom: 8px;
 }
+
 .dd
 {
-font-size: 20px;
+padding-left: 60px;
+font-size: 18px;
 color: rgb(43, 38, 38);
 margin: 10px 00;
 }
@@ -105,4 +127,9 @@ margin: 10px 00;
     color: rgb(41, 19, 19);
     margin: 20px 00;
     }
-
+.image-ol
+{
+    padding-right: 20px;
+    list-style-image: url("tick-3.png");
+    vertical-align: middle;
+}
