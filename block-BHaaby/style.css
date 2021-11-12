@@ -1,0 +1,142 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+ol
+{
+list-style: decimal;
+}
+ul
+{
+    list-style: disc;
+}
+ol,ul{
+    padding-left: 40px;
+    font-size: 22px;
+    color: white;
+    }
+.container
+{
+    width: 1200px;
+    margin: 00 auto;
+}
+.header
+{
+    background-color: rgb(196, 40, 40);
+    padding: 30px 00;
+}
+.header-list a
+{
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    margin-right: 34px;
+    text-transform: uppercase;
+}
+.header-list
+{
+    display: flex;
+}
+.header-div ul
+{
+    list-style: none;
+}
+.main
+{
+    background-color: burlywood;
+    padding-bottom: 30px;
+}
+.main-div
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 00;
+}
+.box
+{
+    width: 29%;
+    height: 600px;
+    box-shadow: 5px 6px 15px 0px black;
+    background-color: rgb(3, 46, 85);
+    padding: 20px 00;
+}
+.box li
+{
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+}
+.dd
+{
+padding-left: 60px;
+font-size: 18px;
+color: rgb(43, 38, 38);
+margin: 10px 00;
+}
+.dt 
+{
+    font-weight: 600;
+    font-size: 30px;
+    color: rgb(41, 19, 19);
+    margin: 20px 00;
+    }
+.image-ol
+{
+    padding-right: 20px;
+    list-style-image: url("tick-3.png");
+    vertical-align: middle;
+}
+.footer-div
+{
+    background-color: rgb(10, 7, 7);
+}
+.footer{
+background-color:rgb(10, 7, 7) ;
+}
+
